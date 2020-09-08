@@ -33,6 +33,6 @@
        #gilflex1-2{display:inline-block;display:flex;flex-flow:row wrap; margin:auto; width:100%; background:linear-gradient(to bottom,#fff, #fff, #fff,#fff,#fff); padding:1%;}
       .dropdown{background:white; color:#000;}
 .dropdown-item{background:#234b9b;}
-.gilh1{letter-spacing:.8em; font-size:42; font-family:calibri;
-  background:#f1f1f1;padding:3%;margin-top:10;margin-left:-10;margin-right:-10;height:100% auto;}
+.gilh1{letter-spacing:.8em; font-size:52; font-family:calibri;
+  background:#f1f1f1;padding:5%;margin-top:10;margin-left:-10;margin-right:-10;height:100% auto;}
         .logo{width:150px;height:150px;}
