@@ -8,7 +8,7 @@ body
 {
 	position:absolute;
 	top: calc(25% - 150px);
-	left:calc(15% - 100px);
+	left:calc(23% - 100px);
 	transform:perspective(1000px)rotateY(-45deg);
 	width:100px;
 	height:200px;
