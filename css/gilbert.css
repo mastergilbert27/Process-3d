@@ -37,3 +37,6 @@
 .gilh1{letter-spacing:.5em; font-size:52; font-family:calibri;
   background-color:#f1f1f1;padding:5%;margin-top:0;margin-left:0;margin-right:0;height:100% auto;}
         .logo{width:150px;height:150px;}
+
+.btn btn-primary{background:#d1d1d1; color:whitesmoke;}
+.btn btn-primary dropdown-toggle{background:#d1d1d1; color:whitesmoke;}
