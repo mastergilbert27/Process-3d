@@ -32,8 +32,6 @@
       .gilp2{max-width:100%; border:auto; padding:4%; margin-left:5;margin-right:10; font-family:calibri;font-size:15; letter-spacing:.3em;
         word-spacing:.2em;}
        #gilflex1-2{display:inline-block;display:flex;flex-flow:row wrap; margin:auto; width:100%; background:linear-gradient(to bottom,#fff, #fff, #fff,#fff,#fff); padding:1%;}
-      .dropdown{background:whitesmoke; color:#000;}
-.dropdown-item{background:#d1d1d1; color:#fff;}
 .gilh1{letter-spacing:.5em; font-size:52; font-family:calibri;
   background-color:#f1f1f1;padding:5%;margin-top:0;margin-left:0;margin-right:0;height:100% auto;}
         .logo{width:150px;height:150px;}
