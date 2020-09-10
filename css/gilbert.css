@@ -8,19 +8,21 @@
       a:visited{color:#fff;text-decoration:none; letter-spacing:.4%;}
       a:link{color:; text-decoration:none;}
       #span1{font-size:12; color:#000;}
-      #divright{float:right; margin-right:10;
+      #divright{float:right; margin-right:0px;
                 padding:1%; background:#d6d8d8; color:#fff;opacity:60%;}
       .divcenter{background:#fff;color:#4b4e4f;margin-left:-5; margin-right:-5;max-width:100% auto;border:.5em #d6d6d6 thin;margin-top:-20;
                  ;padding:1em;}
        .divcenter>.gilp1{width:auto;border:auto; padding:4%; margin-left:10;margin-right:10; font-family:calibri;font-size:15; letter-spacing:.3em;
          word-spacing:.2em;} 
-      #gilflex1{display:inline-block;display:flex;flex-flow:column wrap; align-text:left" margin:auto; width:100%; 
-        background:linear-gradient(to bottom, #dbe4f6, #dbe4f6, #dbe4f6,#e1e8f6,#fff); padding:1%;}
-      .gilflex2{color:#4b4e4f; flex:1 100%;margin:;width:100%;height:100%; border:auto; padding:4%; margin-left:5;margin-right:5; font-family:calibri;font-size:15; letter-spacing:.3em; word-spacing:.2em;}
-      .gilflex2>a:hover{color:#fff;text-decoration:none;background:none; padding:1; border-radius:3px;}
-                 a:visited{color:#fff;text-decoration:none; letter-spacing:.4%;}
-                 a:link{color:#fff; text-decoration:none;}
-      #footergil{display:flex;background:linear-gradient(to bottom, #183e8a, #183e8a, #173675,#173675,#173675);position:sticky;
+      #gilflex1{display:inline-block;display:flex;flex-flow:column wrap; align-item:center; margin:auto; width:100%; background:linear-gradient(to bottom, #f4f4f4, #f4f4f4, #f4f4f4,#fff,#fff); padding:1%;}
+      .gilflex2 > a{color:#4b4e4f; flex:1 50%;margin:;width:0;height:100%; 
+					border:auto; padding:4%; margin-left:0;margin-right:0; 
+					font-family:calibri;font-size:15; letter-spacing:; word-spacing:0;
+					opacity:30%;}
+   
+      .gilflex2 > p{color:#4b4e4f; flex:2 50%;margin:0;width:100%;height:100%; border:auto; padding:4%; margin-left:0px;margin-right:0px;; font-family:calibri;font-size:15; letter-spacing:.3em; word-spacing:.2em;}
+   
+	 #footergil{display:flex;background:linear-gradient(to bottom, #183e8a, #183e8a, #173675,#173675,#173675);position:sticky;
         color:#fff; margin-right:-5;margin-left:-5;padding:1%;width:auto; padding:3%; font-family:calibri; letter-spacing:.3em; word-spacing:2em;
         align-item:center;}
       .gilfooter2{ pading:1%;letter-spacing:.3; word-spacing:.3; font-size:11; margin:auto;}
@@ -34,6 +36,7 @@
         word-spacing:.2em;}
 /*----------------------Drop Down menu----------------*/
 .dropbtn {
+background:transparent;
   color: whitesmoke;
   padding:12px;
   font-size: 13px;
@@ -46,7 +49,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: transparent;
+  background-color:#f1f1f1;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -57,9 +60,10 @@
   text-decoration: none;
   display: block;
 }
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #3e403e;text-decoration:none;color:#5ef540;}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #3a3f3a;}
+.dropdown:hover .dropbtn {background-color:transparent;
+							color:#5ef540;}
 /*----------------------Drop Down menu End----------------*/
 
 
