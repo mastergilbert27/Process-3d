@@ -1,18 +1,13 @@
   body{margin:0;font-family:calibri;font-size:14.5;font-style:bold;
       background:linear-gradient(to bottom, #183e8a, #183e8a, #173675,#173675,#173675);}
       h1{background:#d6d8d8; color:#fff;font-family:Harlow solid italic; padding:4.5%; opacity:80%;font-size:47;}
-     
       .gil1{display:inline-block; margin-left:-3;color:#000; padding:.3%; margin-top:-10px;
             display:flex; position:sticky;letter-spacing:1%;font-size:10px;}
       .gil1>.gil2{border-radius:5em;word-spacing:.5em;}
-  
-      
       .gil1>.gil2>a:hover{color:#4b4e4f;text-decoration:none;background:#670b0b; padding:1; border-radius:3px;}
       a:visited{color:#fff;text-decoration:none; letter-spacing:.4%;}
       a:link{color:; text-decoration:none;}
-      
       #span1{font-size:12; color:#000;}
-      
       #divright{float:right; margin-right:10;
                 padding:1%; background:#d6d8d8; color:#fff;opacity:60%;}
       .divcenter{background:#fff;color:#4b4e4f;margin-left:-5; margin-right:-5;max-width:100% auto;border:.5em #d6d6d6 thin;margin-top:-20;
@@ -37,11 +32,7 @@
         .logo{width:150px;height:150px;}
      .gilp1{max-width:100%; border:auto; padding:4%; margin-left:5;margin-right:10; font-family:calibri;font-size:15; letter-spacing:.3em;
         word-spacing:.2em;}
-
-
-
 /*----------------------Drop Down menu----------------*/
-
 .dropbtn {
   background-color: #797b79;
   color: whitesmoke;
@@ -49,12 +40,10 @@
   font-size: 13px;
   border: none;
 }
-
 .dropdown {
   position: relative;
   display: inline-block;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -63,117 +52,16 @@
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
-
 .dropdown-content a:hover {background-color: #ddd;}
-
 .dropdown:hover .dropdown-content {display: block;}
-
 .dropdown:hover .dropbtn {background-color: #3a3f3a;}
-
-
-
 /*----------------------Drop Down menu End----------------*/
-
-.box1{
-  position:absolute;
-  top:50%;
-  left:8%;
-  transform: translate (50%, 50%);
-  width: 500px;
-  height:500px;
-  transform-style: preserve-3d;
-  perspective:2000px;
-  transition:0.5s;
-}
-.box1:hover{
-  transform: translate (50%, 50%) rotateY(-30deg) skewY(5deg);
-}
-.box1:before{
-  content:'';
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  background:transparent;
-  border-top: 20px solid #fff;
-  border-left: 20px solid #fff;
-  box-sizing:border-box;}
- 
-  .box1:after{
-  content:'';
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  background:transparent;
-  border-bottom: 20px solid #fff;
-  border-right: 20px solid #fff;
-  box-sizing:border-box;
-}
-.box1.text{
-  position:absolute;
-  top:30px;
-  left:-30px;
-  background:#262626;
-  width: calc(100% + 60px);
-  height: calc(100% - 60px);
-  transition:0.5s;
-}
-  .box1:hover .text{
-  transform: rotateY(30deg) skewY(-5deg);  
-   background:#d1d1d1;
-}
-  .text div{
-  position:absolute;
-  top:50%;
-  left:0;
-  width:100%;
-  transform: translateY(-50%);
-  padding: 40px; 8px;
-  box-sizing: border-box;
-  text-align:center;
-  z-index:3;
-} 
-  .text div h1{
-  margin:0 0 20px;
-  padding:0;
-  color:#fff;
-}
-  .text div p{
-  margin:0 0 20px;
-  padding:0;
-  font-size:18px;
-  color:#fff;
-}
-  .fa{
-  width:80px;
-  height:80px;
-  background:#fff;
-  color:#262626;
-  text-align:center;
-  line-height:80px !important;
-  font-size:40px !important;
-}
-  .fa.fa1{
-  position:absolute;
-  top:0;
-  left:0;
-}
-.fa.fa2{
-  position:absolute;
-  bottom:0;
-  right:0;
-  z-index:1;
-}
 
 
 
