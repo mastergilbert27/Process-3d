@@ -9,7 +9,7 @@ body
 	position:absolute;
 	top: calc(23% - 150px);
 	left:calc(55% - 100px);
-	transform:perspective(1000px)rotateY(-90deg);
+	transform:perspective(1000px)rotateY(90deg);
 	width:60px;
 	height:120px;
 	transform-style: preserve-3d;
