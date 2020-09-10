@@ -8,10 +8,10 @@ body
 {
 	position:absolute;
 	top: calc(23% - 150px);
-	left:calc(25% - 100px);
-	transform:perspective(1000px)rotateY(0deg);
-	width:50px;
-	height:100px;
+	left:calc(50% - 100px);
+	transform:perspective(1000px)rotateY(180deg);
+	width:70px;
+	height:140px;
 	transform-style: preserve-3d;
 
 }
