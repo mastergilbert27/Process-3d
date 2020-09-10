@@ -83,8 +83,8 @@
 
 .box1{
   position:absolute;
-  top:25%;
-  left:10%;
+  top:50%;
+  left:8%;
   transform: translate (50%, 50%);
   width: 500px;
   height:500px;
@@ -130,6 +130,7 @@
 }
   .box1:hover .text{
   transform: rotateY(30deg) skewY(-5deg);  
+   background:#d1d1d1;
 }
   .text div{
   position:absolute;
