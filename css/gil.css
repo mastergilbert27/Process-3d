@@ -52,22 +52,23 @@ body
 .box div span:nth-child(1)
 {
 	transform: rotateX(0deg);
+	background:#02e30a;
 	
 }
 .box div span:nth-child(2)
 {
 	transform: rotateX(45deg);
-	
+	background:#e3cb02;
 }
 .box div span:nth-child(3)
 {
 	transform: rotateX(-45deg);
-	
+	background:#cb02e3;
 }
 .box div span:nth-child(4)
 {
 	transform: rotateX(90deg);
-	
+	background:#e30227;
 }
 @keyframes animate
 {
